@@ -6,6 +6,6 @@ public class LaunchDetailsController {
         LaunchDetailsModel launchDetailsModel = new LaunchDetailsModel(launch);
         LaunchDetailsView launchDetailsView = new LaunchDetailsView(this, launchDetailsModel);
 
-
+        System.out.println("Started");
     }
 }
